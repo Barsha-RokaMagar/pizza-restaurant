@@ -76,7 +76,7 @@ public class activity3 extends AppCompatActivity {
                 int price1Value = 18;
                 int editxt1Value =  Integer.parseInt(edittxt1.getText().toString().trim());
                 int result = price1Value*editxt1Value;
-
+// getting value from user
 
                Intent intent = new Intent(activity3.this, activity4.class);
                Bundle b = new Bundle();
